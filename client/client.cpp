@@ -5,7 +5,6 @@
 Widget::Widget(QWidget *parent) : QWidget(parent), ui(new Ui::Widget) {
   ui->setupUi(this);
   this->ui->ip->setPlaceholderText("Input IP");
-  this->ui->port->setText("8888");
   this->ui->port->setPlaceholderText("Input Port");
   this->ui->send_text->setPlaceholderText("Input Message");
   this->ui->recv_text->setPlaceholderText("History Message");

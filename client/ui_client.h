@@ -57,9 +57,9 @@ class Ui_Widget {
     send_text->setObjectName(QString::fromUtf8("send_text"));
     send_btn->setObjectName(QString::fromUtf8("send_btn"));
 
-    ip->setGeometry(QRect(110, 20, 131, 28));
-    port->setGeometry(QRect(300, 20, 101, 28));
-    conn_btn->setGeometry(QRect(460, 20, 81, 28));
+    ip->setGeometry(QRect(110, 15, 151, 28));
+    port->setGeometry(QRect(300, 15, 101, 28));
+    conn_btn->setGeometry(QRect(460, 15, 81, 28));
     recv_text->setGeometry(QRect(20, 60, 500, 290));
     widget_list->setGeometry(QRect(530, 60, 200, 290));
     send_text->setGeometry(QRect(20, 360, 710, 130));

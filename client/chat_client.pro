@@ -13,7 +13,7 @@ SOURCES += \
     main.cpp
 
 HEADERS += \
-    client.h
+    client.h \
     ui_client.h
 
 FORMS += \

@@ -80,8 +80,8 @@ class Ui_Widget {
   void retranslateUi(QWidget *Widget) {
     Widget->setWindowTitle(
         QCoreApplication::translate("Widget", "Linux Course Design", nullptr));
-    ip->setText(QCoreApplication::translate("Widget", "10.3.1.39", nullptr));
-    port->setText(QCoreApplication::translate("Widget", "8888", nullptr));
+    ip->setText(QCoreApplication::translate("Widget", "", nullptr));
+    port->setText(QCoreApplication::translate("Widget", "", nullptr));
     conn_btn->setText(
         QCoreApplication::translate("Widget", "Connect", nullptr));
     send_btn->setText(QCoreApplication::translate("Widget", "Send", nullptr));

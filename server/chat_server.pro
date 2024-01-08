@@ -13,7 +13,7 @@ SOURCES += \
     server.cpp
 
 HEADERS += \
-    server.h
+    server.h \
     ui_server.h
 
 FORMS += \

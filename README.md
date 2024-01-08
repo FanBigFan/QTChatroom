@@ -9,7 +9,7 @@
 # Preview
 
 server
-- ![Alt text](images/image1.png)
+![Alt text](images/image1.png)
 
 client
-- ![Alt text](images/image2.png)
+![Alt text](images/image2.png)
